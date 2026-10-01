@@ -1,0 +1,211 @@
+#maindiv{
+    width: 100%;
+    height: 1000px;
+   
+    margin: auto;
+    display:grid;
+    /* grid-template-columns:1fr; */
+    grid-template-rows:20px repeat(5,1fr);
+    
+    
+}
+#firstdiv{
+    background-color: rgb(10, 2, 34);
+    height: 20px;
+    display: flex;
+    margin: left;
+    
+}
+#seconddiv{
+    background-color: rgb(3, 3, 66);
+    display: flex;
+    height: 100vh;
+}
+#thirddiv{
+    background-color: rgb(24, 243, 243);
+    display: flex;
+    height:100vh;
+    align-content: center;
+    
+    
+}
+#fourthdiv{
+    background-color:rgba(2, 192, 192, 0.822);
+    height:100vh;
+}
+#fifthdiv{
+    background-color: rgb(114, 215, 243);
+    
+    
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+#sixthdiv{
+    background-color: rgb(158, 247, 247);
+    display:flex;
+    flex-direction:row;
+    height: 100vh;
+    
+}
+.box1{
+    color: rgb(236, 232, 232);
+    position:relative;
+    left: 80%;
+    font-size: 15px;
+}
+.box1:hover{
+    color: blue;
+}
+.box2{
+    color: white;
+    position: relative;
+    left:83%;
+    font-size: 15px;
+}
+.box2:hover{
+    color: blue;
+}
+.box3{
+    color: white;
+    position: relative;
+    left: 86%;
+    font-size: 15px;
+}
+.box3:hover{
+    color: blue;
+}
+.box4{
+    color: white;
+    position: relative;
+    left:88% ;
+    font-size: 15px;
+}
+.box4:hover{
+    color: blue;
+}
+#image{
+    border-radius: 50%;
+    border-style: groove;
+    border-color: rgb(27, 1, 61);
+    position: relative;
+    left: 80px;
+}
+#second-sub1{
+    color: rgb(97, 97, 238);
+    position: relative;
+    left: 100px;
+    top: 30px;
+    
+}
+#second-sub2{
+    color: rgb(72, 75, 247);
+    position: relative;
+    left: 85px;
+    top: 50px;
+    font-size: 40px;
+}
+#second-sub2::first-letter{
+    color: aliceblue;
+}
+#second-sub3{
+    color:white;
+    position: relative;
+    right: 15px;
+    top: 100px;
+}
+#third-sub1{
+    position: relative;
+    left: 70px;
+    top: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#third-sub2{
+    color: rgb(103, 3, 233);
+    position:relative;
+    left: 77px;
+    top: 13px;
+    font-size: 25px;
+}
+#third-sub3{
+    position: relative;
+    right: 35px;
+    top: 55px;
+}
+#fourth-sub1{
+    position: relative;
+    left: 70px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#fourth-sub2{
+    position: relative;
+    left : 110px;
+    bottom: 25px;
+    font-size: 25px;
+    color: blue;
+}
+#fourth-sub3{
+    /* background-color: rgb(138, 220, 247); */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 110px;
+    text-align: center;
+}
+#fourth-sub4{
+    position: relative;
+    left: 200px;
+    bottom: 75px;
+}
+#fifth-sub1{
+    position: relative;
+    left: 70px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#fifth-sub2{
+    color: blue;
+    position: relative;
+    left: 75px;
+    top: 5px;
+    font-size: 25px;
+}
+#list{
+    position: relative;
+    top: 40px;
+}
+#sixth-sub1{
+    position: relative;
+    left: 70px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sixth-sub2{
+    color: blue;
+    position: relative;
+    left: 75px;
+    top: 3px;
+    font-size: 25px;
+}
+#sixth-sub3{
+    position: relative;
+    right: 80px;
+    top: 50px;
+}
+#sixth-sub4{
+    position: relative;
+    right: 70px;
+    top: 60px;
+}
+#sixth-sub5{
+    position: relative;
+    right: 345px;
+    top: 100px;
+}
+#sixth-sub6{
+    position: relative;
+    right: 335px;
+    top: 110px;
+}
